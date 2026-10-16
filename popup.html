@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Page Masker</title><link rel="stylesheet" href="popup.css">
+<main>
+  <h1>Page Masker</h1>
+  <p id="scope"></p>
+  <button id="pick">Выбрать элемент пипеткой</button>
+  <label>Текст для замены<textarea id="replacement" rows="3" placeholder="Например: user@example.com"></textarea></label>
+  <button id="save" disabled>Сохранить правило для этого сайта</button>
+  <p id="status" role="status"></p>
+  <h2>Правила на этом сайте</h2><ul id="rules"></ul>
+  <script src="popup.js"></script>
+</main></html>
